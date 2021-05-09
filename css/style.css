@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  background: #f2f2f2;
+}
+.container{
+  position: absolute;
+  left: 20px;
+  top: 100px;
+  height: 420px;
+  width: 60px;
+  line-height: 80px;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+.left{
+    float: left;
+    padding: 0px 10px 0px 0px;
+    width: 90px;
+    
+}
+
+.middle{
+    top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+    margin-bottom: -2000px;
+    padding-bottom: 2000px;
+}
+
+.right{
+    float: right;
+   
+    padding: 0px 10px 0px 10px;
+    width: 90px;
+}​
+
+.container .menu{
+  display: flex;
+  position: relative;
+}
+.container .menu li{
+  list-style: none;
+  flex: 1;
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+.container .menu li a{
+  color: #1d1f20;
+  transition: color 0.3s ease;
+}
+/* .container .menu li:hover a{
+  color: #f23b26;
+}
+.container .menu li:first-child a{
+  color: #f23b26;
+} */
+/* .container .menu .line{
+  position: absolute;
+  height: 5px;
+  width: 20%;
+  background: #f23b26;
+  left: 0;
+  bottom: 0;
+  transition: all 0.3s ease;
+} */
+/* .container .menu li:nth-child(2):hover ~ .line{
+  right: 20%;
+}
+.container .menu li:nth-child(3):hover ~ .line{
+  left: 40%;
+}
+.container .menu li:nth-child(4):hover ~ .line{
+  left: 60%;
+}
+.container .menu li:nth-child(5):hover ~ .line{
+  left: 80%;
+} */
+
+#home:hover {
+  transform: scale(1.2);
+}
+
+#mano:hover {
+  transform: scale(1.2);
+}
+#estilete:hover {
+  transform: scale(1.2);
+}
+#ponchadora:hover {
+  transform: scale(1.2);
+}
+#verificadora:hover {
+  transform: scale(1.2);
+}
+
+
+.contenido{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+.grid-square {
+  position: relative;
+  top: 25px;
+  left: 30px;
+  width: 30px;
+  height: 300px;
+  display: inline-block;
+  padding: 1px;
+  margin: 10px;
+}
+.grid-square-2 {
+  position: relative;
+  top: 25px;
+  left: 20px;
+  width: 30px;
+  height: 300px;
+  display: inline-block;
+  padding: 10px;
+  margin: -2px;
+}
+.grid-square-3 {
+  position: absolute;
+  top: 310px;
+  left: 307px;
+  width: 30px;
+  height: 300px;
+  display: inline-block;
+  padding: 1px;
+  margin: -2px;
+  z-index: 99999;
+}
+.grid-oculto {
+  display: none;
+}
+.circulo {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  left: 315px;
+  top: -185px;
+  margin: 4.8px;
+  display: inline-block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #828863;
+}
+
+.ocultar{
+  display: none;
+}
+.desocultar{
+  display: inline-block;
+}
+/* ------------------------------------------------- */
+.notifyjs-foo-base {
+  opacity: 0.85;
+  width: 225px;
+  background: #F5F5F5;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.notifyjs-foo-base .title {
+  width: 100px;
+  float: left;
+  margin: 10px 0 0 10px;
+  text-align: center;
+}
+
+.notifyjs-foo-base .buttons {
+  width: 70px;
+  float: right;
+  font-size: 12px;
+  padding: 5px;
+  margin: 2px;
+}
+
+.notifyjs-foo-base button {
+  font-size: 12px;
+  padding: 5px;
+  margin: 2px;
+  width: 60px;
+}
+.rj45-posicion{
+  position: absolute;
+  left: 700px;
+  top: 80px;
+  z-index: 99999;
+}
+
+.cronometro{
+  width:100px;
+  height:50px;
+  top:7%;
+  left:16%;
+  position:absolute;
+  margin-top:-50px;
+  margin-left:-100px;
+  text-align:center;
+} 
+.boton{display:inline-block;width:32px;height:32px;position:relative;}
+#hms{
+  height:68px;
+  padding:5px 0;
+  font-size:30px;
+  color:#000;
+  font-family: alarm;  
+}
+.contador{
+  width:100px;
+  height:50px;
+  top:7%;
+  left:75%;
+  position:absolute;
+  margin-top:-50px;
+  margin-left:-100px;
+  text-align:center;
+} 
