@@ -43,7 +43,48 @@ p {
 }
 
 /* SELECTION MENU */
+
+#selection-menu {
+    border: 0.1px solid grey;
+    padding: 20px;
+}
+
 #selection-menu:first-child {
     /* line-height: 20px; */
     display: table;
 } 
+
+
+/* === MAIN === */
+
+/* TOOL BAR */
+
+#tool-bar {
+    margin-top: 25px;
+}
+
+#tool-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0 0 0;
+    width: 100px;
+    height: 350px;
+    background-color: #f1f1f1;
+}
+
+#tool-bar ul li img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 5px auto;
+
+}
+
+#tool-bar ul li img:hover {
+    cursor: pointer;
+    border: 0.1px solid dimgray;
+}
+
