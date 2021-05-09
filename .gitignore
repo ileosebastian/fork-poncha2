@@ -1,4 +1,4 @@
 
 # multimedia
-./media/img/*.png
-./media/img/*.svg
+*.png
+*.svg
