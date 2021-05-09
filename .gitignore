@@ -1,4 +1,7 @@
 
+# Files
+/media
+
 # multimedia
 *.png
 *.svg
