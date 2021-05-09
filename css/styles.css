@@ -1,0 +1,46 @@
+
+
+/* Tags */
+p {
+    margin: 0 !important;
+}
+
+
+/* Utilities */
+.center {
+    text-align: center;
+}
+
+
+
+.center-verticaly {
+    vertical-align: middle;
+}
+
+.center-p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+/* === SIMULATOR'S HEADER === */
+#simulator-header {
+    margin-top: 25px;
+}
+
+/* TIMELINE */
+#timeline {
+   line-height: 20px; 
+}
+
+/* COUNTER */
+#counter {
+    line-height: 20px;
+}
+
+/* SELECTION MENU */
+#selection-menu:first-child {
+    /* line-height: 20px; */
+    display: table;
+} 
