@@ -47,21 +47,23 @@
 
     <main class="row">
         <!-- TOOL BAR -->
-        <section id="tool-bar" class="col-2">
+        <section id="tool-bar" class="col-1">
 	    <ul>
-		<li><img src="./media/img/cuter3.svg" alt=""></li>
-		<li><img src="./media/img/cuter3.svg" alt=""></li>
-		<li><img src="./media/img/cuter3.svg" alt=""></li>
-		<li><img src="./media/img/cuter3.svg" alt=""></li>
-		<li><img src="./media/img/cuter3.svg" alt=""></li>
+		<li id="home" class="tools"><button><img src="./media/icons/Home Black.png" alt="Home" title="Reinitiar simulador"></button></li>
+		<li id="hand" class="tools"><button><img src="./media/icons/Hand Black.png" alt="Hand" title="Manipular objetos"></button></li>
+		<li id="cutter" class="tools"><button><img src="./media/icons/Cutter.png" alt="Cutter" title="Cortar cables"></button></li>
+		<li id="crimper" class="tools"><button><img src="./media/icons/Crimper.png" alt="Crimper" title="Ponchar objetos"></button></li>
+		<li id="check" class="tools"><button><img src="./media/icons/Check.png" alt="Check" title="Verificar creacion del cable ethernet"></button></li>
 	    </ul>
         </section>
 
         <!-- SIMULATOR -->
-        <div class="col-10">
+        <div class="col-11">
             <canvas>
             </canvas>
         </div>
     </main>
+
+    <script src="./js/events.js"></script>
 </body>
 </html>
