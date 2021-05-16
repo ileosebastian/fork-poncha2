@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport"> 
     
     <title>Ponchadora</title>
 
@@ -10,26 +10,26 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body class="container-fluid">
+<body class="">
     <!-- SIMULATOR's HEADER-->
-    <section id="simulator-header" class="row d-flew align-items-center justify-content-center vw-100">
+    <section id="simulator-header" class="">
         <!-- TIMELINE -->
-        <div id="timeline" class="col-4 center">
-            <p class="center-verticaly">Tiempo</p>
+        <div id="timeline" class="">
+            <p class="">Tiempo</p>
             <p class="">00:00:00</p>
         </div>
 
         <!-- SELECTION MENU -->
-        <div class="col-4">
-            <div id="selection-menu" class="row align-items-center justify-content-center">
-                <div class="col-6 center center-p">
+        <div class="">
+            <div id="selection-menu" class="">
+                <div class="">
                     <p>Seleccione un estandar</p>
                 </div>
-                <div class="col-6 center center-p">
-                    <button class="center">
+                <div class="">
+                    <button class="btn">
                         <p>568A</p>
                     </button>
-                    <button class="center">
+                    <button class="btn">
                         <p>568B</p>
                     </button>
                 </div>
@@ -37,28 +37,30 @@
         </div>
 
         <!-- COUNTER -->
-        <div id="counter" class="col-4 center">
-            <p class="center-verticaly">Contador</p>
+        <div id="counter" class="">
+            <p class="">Contador</p>
             <p class="">0</p>
         </div>
 
         <!-- In this space will be the notifications -->
     </section>
 
-    <main class="row">
+    <!-- WORKSPACE -->
+    <main id="workspace">
         <!-- TOOL BAR -->
-        <section id="tool-bar" class="col-1">
+        <section id="tool-bar" class="">
 	    <ul>
 		<li id="home" class="tools"><button><img src="https://imgshare.io/images/2021/05/12/Home-Black.png" alt="Home" title="Reinitiar simulador"></button></li>
 		<li id="hand" class="tools"><button><img src="https://imgshare.io/images/2021/05/12/Hand-Black.png" alt="Hand" title="Manipular objetos"></button></li>
 		<li id="cutter" class="tools"><button><img src="https://imgshare.io/images/2021/05/12/Cutter.png" alt="Cutter" title="Cortar cables"></button></li>
 		<li id="crimper" class="tools"><button><img src="https://imgshare.io/images/2021/05/12/Crimper.png" alt="Crimper" title="Ponchar objetos"></button></li>
 		<li id="check" class="tools"><button><img src="https://imgshare.io/images/2021/05/12/Check.png" alt="Check" title="Verificar creacion del cable ethernet"></button></li>
+
 	    </ul>
         </section>
 
         <!-- SIMULATOR -->
-        <div class="col-11">
+        <div class="">
             <canvas>
             </canvas>
         </div>
